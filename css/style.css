@@ -1,0 +1,70 @@
+#cardDiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+article {
+  width: 25%;
+  border: 1px solid lightblue;  
+  background-color: gray;
+  margin: 1em;
+  padding: 1em; 
+  flex-grow: 1;
+}
+.title{
+  text-align: center;
+  text-decoration: underline;
+  border: 1px dotted lightgray;
+  
+}
+#charmander{
+  color: #f49542;
+  background-color: #472406;
+} 
+#squirtle{
+  color:#2093c9;
+  background-color: #083f59;
+}
+#bulbasaur{
+  color:#03ad2d;
+  background-color: #075119;
+}
+#squirtleImg{
+  width: 211px;
+  height: 239px;
+  background: white;
+}
+#bulbImg{
+  width: 211px;
+  height: 239px;
+  background: white;
+}
+.imgSection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#charTitle{
+  text-align: center;
+}
+
+img{
+  justify-content: center;
+  border-radius: 19%;
+}
+footer{
+
+  font-size: 12px;
+}
+.availability {
+  width: 100%;
+  text-align: center;
+  background-color:#333;
+  color: yellow;
+}
+section{
+  margin-bottom: 2%;
+}
+.description{
+  height: 72px;
+}
